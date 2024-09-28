@@ -1,0 +1,3 @@
+Here is the result:
+Selam, this is first.txt file.
+Selam, this is second.txt file.

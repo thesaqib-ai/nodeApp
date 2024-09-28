@@ -1,0 +1,12 @@
+// CoomonJS, every file is module by default
+// Modules - Encapsulated code (only share minimum)
+const names = require("./4-names")
+const {sajjad, saqib} = require("./4-names")
+const data = require('./6-alternative-flavor')
+const sayHi = require("./5-utils")
+sayHi(names.saqib)
+sayHi(names.sajjad)
+console.log(data)
+console.log(saqib)
+console.log(sajjad)
+require('./7-mind-grenade')
